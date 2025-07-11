@@ -1,0 +1,64 @@
+@media (min-width: 768px) and (max-width: 1400px) {
+  .text-banner {
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    color: rgb(88, 159, 235);
+    font-size: 20px;
+    text-align: center;
+  }
+  .text-banner span {
+    font-size: 16px;
+    color: #6e7070;
+  }
+  .text-nav {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 10px;
+    margin-right: 1.5rem;
+    padding-bottom: 30px;
+  }
+  #nav-bar {
+    margin-top: 1rem;
+  }
+  #personal-info {
+    font-size: 14px;
+    padding-right: 40px;
+  }
+  #target {
+    font-size: 14px;
+    padding-left: 40px;
+  }
+
+  .cer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .project-title {
+    font-size: 14px;
+  }
+  .project-border {
+    font-size: 12xp;
+    padding: 10px 4px !important;
+  }
+  .project-border span {
+    margin-right: 5px !important;
+  }
+  td {
+    font-size: 10px;
+  }
+  tr td:first-child {
+    width: 30%;
+  }
+  .job-content.show-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .view-more,
+  .view-less,
+  .control-view {
+    display: inline-block !important;
+  }
+}
