@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+  .text-banner {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: rgb(88, 159, 235);
+    font-size: 18px;
+    text-align: center;
+  }
+  .text-banner span {
+    font-size: 14px;
+    color: #6e7070;
+  }
+  .text-nav {
+    display: none;
+  }
+  #nav-bar {
+    height: auto;
+    display: block;
+  }
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+  #personal-info {
+    padding-left: 25px;
+  }
+  #target {
+    padding-left: 25px;
+  }
+  .cer-content-2 {
+    border-left: 0;
+    border-top: 1.5px solid #d6c08d;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+  .job-content.show-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .view-more,
+  .view-less,
+  .control-view {
+    display: inline-block !important;
+  }
+}
